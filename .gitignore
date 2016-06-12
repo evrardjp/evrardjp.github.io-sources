@@ -1,4 +1,4 @@
-
+# Modified by Jean-Philippe Evrard <jean-philippe@evrard.me>
 # Created by https://www.gitignore.io/api/python
 
 ### Python ###
@@ -63,6 +63,13 @@ instance/
 
 # Scrapy stuff:
 .scrapy
+
+# Pelican stuff:
+output/
+develop_server.sh
+
+# Twisted running
+twistd.pid
 
 # Sphinx documentation
 docs/_build/
