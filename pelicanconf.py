@@ -35,7 +35,8 @@ SOCIAL = (('github', LINKEDIN_URL),
 
 DEFAULT_PAGINATION = 10
 
-STATIC_PATHS = ['images', 'pdfs']
+STATIC_PATHS = ['images', 'pdfs','extra/CNAME']
+EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 
