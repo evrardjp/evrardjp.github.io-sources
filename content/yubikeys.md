@@ -1,8 +1,9 @@
 Title:  My YubiKey Quickstart guide
-Date: 2016-06-14 23:30
+Date: 2016-06-13 23:00
+Modified: 2016-06-15 00:30
 Category: security
 Tags: yubikey, pgp, ssh
-Summary: Securing my world by using YubiKeysHere is how I use YubiKeys
+Summary: My YubiKey Quickstart guide - what you can do with YubiKey and what do I do.
 
 ![yubikey-photo](https://farm3.staticflickr.com/2625/3689896409_35043dc8ba_d.jpg)
 
