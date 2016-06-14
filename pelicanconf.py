@@ -30,8 +30,8 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
 LINKEDIN_USER = AUTHOR_GENERIC_USERNAME
 LINKEDIN_URL = 'https://www.linkedin.com/in/' + LINKEDIN_USER
 GITHUB_URL = 'https://github.com/' + AUTHOR_GENERIC_USERNAME
-SOCIAL = (('github', LINKEDIN_URL),
-          ('linkedin', GITHUB_URL),)
+SOCIAL = (('LinkedIn', LINKEDIN_URL),
+          ('Github', GITHUB_URL),)
 
 DEFAULT_PAGINATION = 10
 
