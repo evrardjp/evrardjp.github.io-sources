@@ -3,7 +3,7 @@ Date: 2016-06-13 23:00
 Modified: 2016-06-15 00:30
 Category: security
 Tags: yubikey, pgp, ssh
-Summary: My YubiKey Quickstart guide - what you can do with YubiKey and what do I do.
+Summary: My YubiKey Quickstart guide - what you can do with yours/what do I do?
 
 ![yubikey-photo](https://farm3.staticflickr.com/2625/3689896409_35043dc8ba_d.jpg)
 
