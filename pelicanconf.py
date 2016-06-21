@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Jean-Philippe Evrard'
 AUTHOR_GENERIC_USERNAME = 'evrardjp'
-SITENAME = u'dd if=/dev/brain of=this.site'
+SITENAME = u'dd if=/dev/brain of=/var/log/this.site'
 SITEURL = ''
 
 PATH = 'content'
@@ -40,9 +40,6 @@ EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 
-
-#THEME = 'themes/twenty-pelican-html5up'
-#ABOUT_TEXT = 'TODO!'
 #ABOUT_IMAGE = TODO
 #ABOUT_LINK = TODO
 COPYRIGHT = AUTHOR
