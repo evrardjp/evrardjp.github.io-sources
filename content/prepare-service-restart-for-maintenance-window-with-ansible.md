@@ -2,6 +2,7 @@ Title: Orchestrate a service restart during a maintenance window with ansible
 Date: 2016-06-18 16:39
 Category: ansible
 Tags: ansible, service orchestration
+Status: published
 Summary: Ansible - Orchestrate changes to restart a service later
 
 ![Ansible daemon orchestration]({filename}/images/button.jpg)
@@ -90,3 +91,5 @@ My preferred method is the method 4, because it's far more readable, it avoids v
 
 [ansible-pocs]: https://github.com/evrardjp/ansible-pocs
 [ansible-pocs-service-restart]: https://github.com/evrardjp/ansible-pocs/tree/master/roles/conditionalhandler
+
+*Photo credit: [Maker-9070](http://www.flickr.com/photos/135666453@N07/25128639121)*
