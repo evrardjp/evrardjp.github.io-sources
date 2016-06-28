@@ -85,9 +85,9 @@ Avoiding/forcing *service restart* is respectively:
     ansible-playbook conditional-handler-playbook.yml -t method4 --skip-tags=service_restart
     ansible-playbook conditional-handler-playbook.yml -t method4 --skip-tags=service_config
 
-## Final Words - What is the most more elegant way to do it?
+## Final Words - What is the most elegant way to do it?
 
-My preferred method is the method 4, because it's far more readable, it avoids variable crawl, the tags are consistent, and it's understandable from a "non ansible" point of view. As I said before, the most elegant method would be to **NOT** do this at all, and make sure the system is always consistent after a run.
+My preferred method is the method 4, because it's far more readable, it avoids variable crawl, the tags are consistent, and it's understandable from a "non ansible" point of view. As I said before, the most elegant method would be to **NOT** do this at all, and make sure the system is always consistent after a run. Don't forget that some services don't require a restart to change their live status. Another signal could be used to take the change into consideration. This signal should be then used in the ansible handler.
 
 [ansible-pocs]: https://github.com/evrardjp/ansible-pocs
 [ansible-pocs-service-restart]: https://github.com/evrardjp/ansible-pocs/tree/master/roles/conditionalhandler
